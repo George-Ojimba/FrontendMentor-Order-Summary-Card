@@ -60,19 +60,41 @@ background: url('./images/pattern-background-desktop.svg') no-repeat ;
 background-size: contain;
 background-position: top;
 max-width: 100%;
-height: inherit;
+height: 100%;
 
 }
  
 .container{
 background: hsl(225, 100%, 98%);
 min-height:70%;
-max-width: 20rem;
+max-width: 22rem;
 border-radius:10px;
  /* border: 1px solid red; */
 }
 
+/* Header  */
 header img{
   border-top-left-radius:10px;
-border-top-right-radius:10px;
+  border-top-right-radius:10px;
+}
+
+/* Main section  */
+
+main h2{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight:900;
+  margin-top: 2rem;
+  color:hsl(223, 47%, 23%);
+
+}
+
+main p {
+  font-size: .9rem;
+  font-weight: 500;
+  color:hsl(224, 23%, 55%);
+  text-align: center;
+  line-height: 1.7;
+  margin-top:1rem;
+  padding:0 20px;
 }
