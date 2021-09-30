@@ -90,7 +90,7 @@ header img {
 
 /* Main section  */
 
-main h2 {
+main h1 {
   text-align: center;
   font-size: 1.3rem;
   font-weight: 900;
@@ -122,6 +122,10 @@ main .plan {
 .plan__content {
   margin-right: 2rem;
   color: hsl(223, 47%, 23%);
+}
+
+.plan__content h2{
+  font-size: 1.1rem;
 }
 
 .plan__content p {
@@ -181,7 +185,7 @@ main .plan {
   .plan__content {
     margin-right: 1.2rem;
   }
-  .plan__content h4 {
+  .plan__content h2 {
     font-size: 15px;
   }
 
